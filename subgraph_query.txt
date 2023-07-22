@@ -1,0 +1,217 @@
+{
+ btc:
+  tokenDayDatas(
+    first: 365
+    where: {token: "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"}
+    orderDirection: asc
+  ) {
+    closePriceUSD
+    supplyLiquidityToken
+    openPriceUSD
+    lowPriceUSD
+    id
+    dayStartUnix
+    highPriceUSD
+    borrowLiquidityToken
+    borrowLiquidityUSD
+    supplyLiquidityUSD
+  }
+
+eth :
+  tokenDayDatas(
+    first: 365
+    where: {token: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"}
+    orderDirection: asc
+  ) {
+    closePriceUSD
+    supplyLiquidityToken
+    openPriceUSD
+    lowPriceUSD
+    id
+    dayStartUnix
+    highPriceUSD
+    borrowLiquidityToken
+    borrowLiquidityUSD
+    supplyLiquidityUSD
+  }
+
+jUSDC :
+  tokenDayDatas(
+    first: 365
+    where: {token: "0x2adba3f917bb0af2530f8f295ad2a6ff1111fc05"}
+    orderDirection: asc
+  ) {
+    closePriceUSD
+    supplyLiquidityToken
+    openPriceUSD
+    lowPriceUSD
+    id
+    dayStartUnix
+    highPriceUSD
+    borrowLiquidityToken
+    borrowLiquidityUSD
+    supplyLiquidityUSD
+  }
+
+dGLP :
+  tokenDayDatas(
+    first: 365
+    where: {token: "0x34df4e8062a8c8ae97e3382b452bd7bf60542698"}
+    orderDirection: asc
+  ) {
+    closePriceUSD
+    supplyLiquidityToken
+    openPriceUSD
+    lowPriceUSD
+    id
+    dayStartUnix
+    highPriceUSD
+    borrowLiquidityToken
+    borrowLiquidityUSD
+    supplyLiquidityUSD
+  }
+
+plsGLP :
+  tokenDayDatas(
+    first: 365
+    where: {token: "0x5c80ac681b6b0e7ef6e0751211012601e6cfb043"}
+    orderDirection: asc
+  ) {
+    closePriceUSD
+    supplyLiquidityToken
+    openPriceUSD
+    lowPriceUSD
+    id
+    dayStartUnix
+    highPriceUSD
+    borrowLiquidityToken
+    borrowLiquidityUSD
+    supplyLiquidityUSD
+  }
+
+ptGLP :
+  tokenDayDatas(
+    first: 365
+    where: {token: "0x7b07e78561a3c2c1eade652a2a92da150743f4d7"}
+    orderDirection: asc
+  ) {
+    closePriceUSD
+    supplyLiquidityToken
+    openPriceUSD
+    lowPriceUSD
+    id
+    dayStartUnix
+    highPriceUSD
+    borrowLiquidityToken
+    borrowLiquidityUSD
+    supplyLiquidityUSD
+  }
+
+mGLP :
+  tokenDayDatas(
+    first: 365
+    where: {token: "0x85667409a723684fe1e57dd1abde8d88c2f54214"}
+    orderDirection: asc
+  ) {
+    closePriceUSD
+    supplyLiquidityToken
+    openPriceUSD
+    lowPriceUSD
+    id
+    dayStartUnix
+    highPriceUSD
+    borrowLiquidityToken
+    borrowLiquidityUSD
+    supplyLiquidityUSD
+  }
+
+arb :
+  tokenDayDatas(
+    first: 365
+    where: {token: "0x912ce59144191c1204e64559fe8253a0e49e6548"}
+    orderDirection: asc
+  ) {
+    closePriceUSD
+    supplyLiquidityToken
+    openPriceUSD
+    lowPriceUSD
+    id
+    dayStartUnix
+    highPriceUSD
+    borrowLiquidityToken
+    borrowLiquidityUSD
+    supplyLiquidityUSD
+  }
+
+dai :
+  tokenDayDatas(
+    first: 365
+    where: {token: "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"}
+    orderDirection: asc
+  ) {
+    closePriceUSD
+    supplyLiquidityToken
+    openPriceUSD
+    lowPriceUSD
+    id
+    dayStartUnix
+    highPriceUSD
+    borrowLiquidityToken
+    borrowLiquidityUSD
+    supplyLiquidityUSD
+  }
+
+link :
+  tokenDayDatas(
+    first: 365
+    where: {token: "0xf97f4df75117a78c1a5a0dbb814af92458539fb4"}
+    orderDirection: asc
+  ) {
+    closePriceUSD
+    supplyLiquidityToken
+    openPriceUSD
+    lowPriceUSD
+    id
+    dayStartUnix
+    highPriceUSD
+    borrowLiquidityToken
+    borrowLiquidityUSD
+    supplyLiquidityUSD
+  }
+
+USDCe :
+  tokenDayDatas(
+    first: 365
+    where: {token: "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"}
+    orderDirection: asc
+  ) {
+    closePriceUSD
+    supplyLiquidityToken
+    openPriceUSD
+    lowPriceUSD
+    id
+    dayStartUnix
+    highPriceUSD
+    borrowLiquidityToken
+    borrowLiquidityUSD
+    supplyLiquidityUSD
+  }
+
+USDT :
+  tokenDayDatas(
+    first: 365
+    where: {token: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"}
+    orderDirection: asc
+  ) {
+    closePriceUSD
+    supplyLiquidityToken
+    openPriceUSD
+    lowPriceUSD
+    id
+    dayStartUnix
+    highPriceUSD
+    borrowLiquidityToken
+    borrowLiquidityUSD
+    supplyLiquidityUSD
+  }
+     }
